@@ -1,6 +1,20 @@
-.important{
-    color: blue;
-    border: 2px rgb(11, 11, 94) solid;
+.important {
+  color: blue;
+  border: 2px rgb(11, 11, 94) solid;
+}
+.menu {
+  background-color: lightgray;
+}
 
+.containerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  border: black 1px solid;
+}
 
+.section3 {
+  background-color: blue;
+  grid-column: 3/4;
+  grid-row: 3;
 }

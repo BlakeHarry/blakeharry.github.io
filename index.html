@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harry</title>
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   </head>
   <body>
     <div class="menu">
@@ -18,7 +18,9 @@
       <h2 class="important">heading1</h2>
       <p></p>
       <input type="text" />
-      <button onclick="harrysFunction()">i dont do anything yet</button>
+      <button onclick="printHelloHarry()">i dont do anything yet</button>
+      <py-script> print("hello from py")</py-script>
+      <py-script src="/index.py"></py-script>
     </div>
 
     <div class="containerGrid">
@@ -26,5 +28,16 @@
         <p>section1</p>
       </div>
     </div>
+
+
+    <div>
+        <button id = "change_me">press me!</button>
+    </div>
+
+    <div>
+        <input id = "input" type="text"></input>
+    </div>
+
+    <div id="output">output will appear here</div>
   </body>
 </html>
